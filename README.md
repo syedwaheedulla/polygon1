@@ -12,27 +12,24 @@ Follow these steps to begin your engagement with the project:
 
 2. **Access Project Directory:** Navigate to the "Poly_Proof" project directory where the core implementation resides.
 
-3. **Dependency Installation:**
-4. Install required dependencies by running:
-   ```bash
+3. **Dependency Installation:** Install required dependencies by running:
    npm install
+
 Running Tests: After installing dependencies, initiate testing using:
-   ```bash
-   npx hardhat test
+npx hardhat test
+
 Deploying the ERC721 Contract: Before deployment, rename ".env.example" to ".env" and add your wallet's private key as: PRIVATE_KEY='your wallet private key'. Deploy the ERC721 contract to the Goerli Ethereum Testnet:
-  '''bash
 npx hardhat run scripts/deploy.js --network goerli
+
 Batch Minting NFTs: Execute this command to perform batch minting of NFTs with the deployed ERC721 contract:
 npx hardhat run scripts/batchMint.js --network goerli
+
 Approval and Deposit to Polygon Mumbai: Transition minted NFTs from Ethereum to Polygon Mumbai network by running:
 npx hardhat run scripts/approveDeposit.js --network goerli
-**Author**
+
+
+Author
 Syed Waheedulla
 
-**License**
+License
 This project is licensed under the MIT License. You are free to duplicate and adapt the project for your needs.
-
-
-
-
-  
