@@ -25,7 +25,7 @@ Batch Minting NFTs: Execute this command to perform batch minting of NFTs with t
 npx hardhat run scripts/batchMint.js --network goerli
 
 Approval and Deposit to Polygon Mumbai: Transition minted NFTs from Ethereum to Polygon Mumbai network by running:
-npx hardhat run scripts/approveDeposit.js --network goerli
+npx hardhat run scripts/approvedDeposit.js --network goerli
 
 
 Author
